@@ -10,12 +10,12 @@
 ## -題目
 
 # <h2 id="1">1.Module:Turtle</h2>
-##### Turtle_Parabolic_Curve.ipynb
+##### [Turtle_Parabolic_Curve.ipynb](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Parabolic_Curve.ipynb)
 
     - 利用Turtle畫拋物線
 <img src="https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Parabolic_Curve.gif" width="400" height="400"/>
 </video>
 
-##### Turtle_Stop.ipynb
+##### [Turtle_Stop.ipynb](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Stop.ipynb)
       - 利用Turtle畫暫停標誌
 ![Stop](Stop.JPG)
