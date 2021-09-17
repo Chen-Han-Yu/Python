@@ -13,8 +13,8 @@
 ##### Turtle_Parabolic_Curve.ipynb
 
     - 利用Turtle畫拋物線
-<video id="video" controls="" preload="none" poster="Stop.JPG" width:60% height:auto controls>
- <source id="mp4" src="https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Parabolic_Curve.mp4" type="video/mp4">
+![Turtle_Parabolic_Curve.gif](Turtle_Parabolic_Curve.gif)
+![Turtle_Parabolic_Curve.gif](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Parabolic_Curve.gif)
 </video>
 
 ##### Turtle_Stop.ipynb
