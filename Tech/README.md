@@ -1,4 +1,4 @@
-# MarkDown與Jupyter NoteBook於VSCode 
+# Markdown & Python 與Jupyter NoteBook於Visual Studio Code 
 
 ## -內容如下
 > OpenDate:2021-09-17<br>
