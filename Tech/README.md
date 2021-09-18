@@ -17,5 +17,5 @@
 </video>
 
 ##### [Turtle_Stop.ipynb](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Stop.ipynb)
-      - 利用Turtle畫暫停標誌
+    - 利用Turtle畫暫停標誌
 ![Stop](Stop.JPG)
