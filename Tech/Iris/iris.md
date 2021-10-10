@@ -18,5 +18,5 @@
 |Features|4|sepal length(cm)<br>sepal width(cm)<br>petal length(cm)<br>petal width(cm)|
 
 # 目錄
-1. [探索式資料分析EDA]
+1. [EDA_exercise](EDA_exercise.ipynb)
 
