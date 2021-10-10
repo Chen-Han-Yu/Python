@@ -11,33 +11,36 @@
 ## -題目
 
 # <h2 id="1">1.Module:Turtle</h2>
-##### [Turtle_Parabolic_Curve.ipynb](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Parabolic_Curve.ipynb)
+### [Turtle_Parabolic_Curve.ipynb](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Parabolic_Curve.ipynb)
 
     - 利用Turtle畫拋物線
 <img src="https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Parabolic_Curve.gif" width="400" height="400"/>
 </video>
 
-##### [Turtle_Stop.ipynb](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Stop.ipynb)
+### [Turtle_Stop.ipynb](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Turtle_Stop.ipynb)
     - 利用Turtle畫暫停標誌
 ![Stop](Stop.JPG)
 
 # <h2 id="2">2.Content:EDA</h2>
-##### [EDA_exercise.ipynb](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Iris/EDA_exercise.ipynb)
-    - sklearn
-      1.datasets iris
-      2.preprocessing
-    - matplotlib
-      1.%matplotlib inline
-      2.pyplot
-      3.patches
-    - pandas
-      1.pd.DataFrame
-      2.loc/iloc
-      3.groupby
-      4.head()
-      5.describe()
-      6.quantile()
-      7.plot()
+### [EDA_exercise.ipynb](https://github.com/Chen-Han-Yu/Python/blob/main/Tech/Iris/EDA_exercise.ipynb)
+Data Set: [Iris](./Iris/iris.md)<br><br>
+Package:
+- sklearn<br>
+  1.datasets iris<br>
+  2.preprocessing<br>
+- matplotlib<br>
+  1.%matplotlib inline<br>
+  2.pyplot<br>
+  3.patches<br>
+- pandas<br>
+  1.pd.DataFrame<br>
+  2.loc/iloc<br>
+  3.groupby<br>
+  4.head()<br>
+  5.describe()<br>
+  6.quantile()<br>
+  7.plot()<br>
+>不同種類的頻率圖
 ![不同種類的頻率圖](./Iris/EDA_histogram.png)
 >不同種類的萼片長寬有一定的線性關係
 ![Septal和種類相關](./Iris/EDA_Scatter_Sepal.png)
