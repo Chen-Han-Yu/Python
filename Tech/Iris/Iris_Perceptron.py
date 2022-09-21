@@ -11,12 +11,16 @@ class Perceptron(object):
     1. 分開的兩類可用線性分離。
     2. 學習速率要小。
     Input:
-    X
-    y
-    eta
-    epoch_iter:
+    X 選擇兩個參數進行預測分類
+    y 分類的答案
+    eta 學習速率(learning rate)
+    epoch_iter 迭代次數
     Output:
     object
+    物件流程如下
+    1. fit_model:建模
+    2. net_input:計算啟動函數加總(netinput function)
+    3. predict:計算啟動函數是哪一類(activation function)
     """
 
     def __init__(self, eta=0.01, epoch_iter=10):
@@ -48,6 +52,8 @@ class Perceptron(object):
         """
         self.weight_fit = np.zeros(1+X.shape[1])
         self.errors_result = []
+        self.update_weight1 = []
+        self.update_weight0 = []
 
         for _ in range(self.epoch_iter):
             errors = 0
@@ -56,6 +62,8 @@ class Perceptron(object):
                 self.weight_fit[1:] += update_weight * x_i
                 self.weight_fit[0] += update_weight
                 errors += int(update_weight != 0.0)
+                self.update_weight1.append(self.weight_fit[1:])
+                self.update_weight0.append(self.weight_fit[0])
             self.errors_result.append(errors)
         return self
 
@@ -180,3 +188,7 @@ plt.xlabel("sepal length[cm]")
 plt.ylabel("petal length[cm]")
 plt.legend(loc='upper left')
 plt.show()
+model.update_weight0
+len(model.update_weight0)
+model.update_weight1
+len(model.update_weight1)
